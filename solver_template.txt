@@ -12,10 +12,10 @@ class DayXX
     text = File.open(file).read
     data = text.each_line.map { |line| line.strip }
 
-    puts "Part 1: #{'empty'}"
+    puts "Part 1: #{}"
 
 
-    puts "Part 2: #{'empty'}"
+    puts "Part 2: #{}"
   end
 end
 
