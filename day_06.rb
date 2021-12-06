@@ -1,9 +1,9 @@
-class DayXX
+class Day06
   def self.run(test: false)
     if test
-      file = 'day_XX_test_input.txt'
+      file = 'day_06_test_input.txt'
     else
-      file = 'day_XX_input.txt'
+      file = 'day_06_input.txt'
     end
     self.new.run(file: file)
   end
@@ -19,5 +19,5 @@ class DayXX
   end
 end
 
-DayXX.run(test: true)
-# DayXX.run(test: false)
+Day06.run(test: true)
+# Day06.run(test: false)
